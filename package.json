@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend/thinkBoard && npm run build --prefix frontend/thinkBoard",
-    "start": "npm run start --prefix backend"
+    "start": "npm start --prefix backend"
   },
   "repository": {
     "type": "git",
