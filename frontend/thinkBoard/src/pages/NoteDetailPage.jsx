@@ -60,7 +60,7 @@ const NoteDetailPage = () => {
       setSaving(false)
     }
   };    
-
+  
   console.log({ note });
 
   if (loading) {
